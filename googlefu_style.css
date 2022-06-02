@@ -63,3 +63,26 @@ body, input {
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
+
+input {
+    margin: 11px 4px;
+    padding: 6px 16px;
+
+}
+
+input:hover {
+    background-color: black;
+    color: white;
+    border-color: blue;
+}
+
+#logoh1 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+    color: red;
+}
+
+#advH2 {
+    color: red;
+}

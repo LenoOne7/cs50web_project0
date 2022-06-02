@@ -1,0 +1,85 @@
+
+:root {
+    --inptWidth: 600px;
+}
+
+html, body {
+    width: 100%;
+}
+
+#navbar {
+    width: 95%;
+    margin: 14px;
+    padding: 2px;
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: None;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.container_form_parent {
+    display: flex;
+}
+
+.form_child1 {
+    width: 20%;
+}
+.form_child2 {
+    width: 80%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 50%;
+}
+
+#nrf1, #nrf2 {
+    width: 15%;
+}
+
+#nrf1 input, #nrf2 input {
+    width: 100%;
+}
+
+#to {
+    width: 10%;
+    text-align: center;
+}
+
+#wrap {
+    display: flex;
+    width: 100%;
+}
+
+#contForSubmtBtn {
+    display: flex;
+    width: var(--inptWidth);
+    justify-content: right;
+}
+
+#contForSubmtBtn input {
+    width: 160px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    height: 22px;
+}
+
+#contForSubmtBtn input:hover {
+    background-color: #4787ed;
+}

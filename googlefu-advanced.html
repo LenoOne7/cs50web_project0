@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>GoogleFu Advanced search by Lennox Stampp</title>
-    <link href="googlefu_style.css" rel="stylesheet">
+    <link href="googlefuAdv.css" rel="stylesheet">
+    <script src="googlefuAdv.js" defer></script>
 </head>
 <body>
     <div id="container1">
@@ -13,6 +14,72 @@
             <a href="googlefu-image.html">Image GoogleFu</a>
         </div>
     </div>
+<div>
+    <h2 id="advH2">GoogleFu Advanced Search</h2>
+    <hr 2px>
+    <h3>Find pages with...</h3>
+    <form action="https://www.google.com/search">
+        <div class="container_form_parent">
+            <div class="form_child1">
+                <label for="atw">all these words:</label>
+            </div>
+            <div class="form_child2">
+                <input type="text" name="as_q" id="atw">
+            </div>
+        </div>
+        <br>
+        <div class="container_form_parent">
+            <div class="form_child1">
+                <label for="tewop">this exact word or phrase:</label>
+            </div>
+            <div class="form_child2">
+                <input type="text" name="as_epq" id="tewop">
+            </div>
+        </div>
+        <br>
+        <div class="container_form_parent">
+            <div class="form_child1">
+                <label for="aotw">any of these words:</label>
+            </div>
+            <div class="form_child2">
+                <input type="text" name="as_oq" id="aotw">
+            </div>
+        </div>
+        <br>
+        <div class="container_form_parent">
+            <div class="form_child1">
+                <label for="notw">none of these words:</label>
+            </div>
+            <div class="form_child2">
+                <input type="text" name="as_eq" id="notw">
+            </div>
+        </div>
+        <br>
+        <div class="container_form_parent">
+            <div class="form_child1">
+                <label for="nrf">numbers ranging from:</label>
+            </div>
+            <div id="nrf1">
+                <input type="text" name="as_nlo" id="nrf">
+            </div>
+            <div id="to">
+                to
+            </div>
+            <div id="nrf2">
+                <input type="text" name="as_nhi">
+            </div>
+        </div>
+        <br>
+        <hr 2px>
+        <br>
+        <div id="wrap">
+            <div id="contForSubmtBtn">
+                <input type="submit" value="GoofleFu Advanced Search">
+            </div>
+        </div>
+
+    </form>
+</div>
 
 </body>
 </html>
